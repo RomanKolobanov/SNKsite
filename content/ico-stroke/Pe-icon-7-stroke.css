@@ -160,10 +160,6 @@
 	transition: all .3s ease-out;
 }
 
-.pe-7s-angle-right:hover {
-	font-size: 2em;	
-}
-
 .pe-7s-volume:before {
 	content: "\e692";
 }

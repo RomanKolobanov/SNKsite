@@ -38,13 +38,14 @@ a {
 }
 
 b {
-	color: #430264;
+	color: #787683;
 	background: #fff;
 	transition: all .3s ease-out;
+	padding: 3px;
 }
 
 b:hover {
-	color: yellow;
+	color: #fff;
 	background: #000;
 	padding: 10px;
 }
@@ -643,14 +644,76 @@ ul.menu > li:hover > ul.submenu {
 .sectionfour-wrap p {
 	color: #fff;
 
-	border-top: 3px solid pink;
-	border-left: 5px solid pink;
+	border-bottom: 1px solid #fff;
+	border-right: 5px solid #fff;
 
-	padding-left: 15px;
 	font-size: 20px;
 	margin-top: 60px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px;
+}
+
+/* wrap-interest */
+
+.interest {
+	height: 150px;
+	
+	display: flex;
+	margin-left: 18%;
+}
+
+.interest-left {
+	width: 60%;
+	height: 146px;
+
+	background: #fff;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.interest-left p {
+	font-size: 22px;
+	background-color: #000;
+	color: #fff;
+	padding: 25px;
+}
+
+.interest-right {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+
+	width: 40%;
+	height: 146px;
+	background: #000;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.interest-right button {
+	width: 250px;
+	padding: 25px;
+
+	background: #000;
+	border: 2px solid #fff;
+
+	font-size: 22px;
+	color: #fff;
+	cursor: pointer;
+
+	transition: all .3s ease-out;
+}
+
+.interest-right button:hover {
+	background: #fff;
+	color: #000;
+	border-color: #000;
+	box-shadow: 0 0 0 1px #fff;
 }
 
 /* Пятый Блок */
