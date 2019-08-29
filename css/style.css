@@ -9,6 +9,7 @@ body {
 	margin: 0;
 
 	font-family: 'Open Sans', sans-serif;
+	overflow-y: hidden;
 }
 
 h1 {
@@ -121,6 +122,13 @@ b:hover {
 	border-radius: 2px;
 } */
 
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
 /* Блок Навигации */
 
 .nav_wrap {
@@ -136,6 +144,11 @@ b:hover {
 	position: fixed;
   	top: 0px;
   	z-index: 101;
+}
+
+.inner-list {
+	padding-bottom: 20px; 
+	padding-top: 20px;
 }
 
 .nav_wrap img {
@@ -222,6 +235,28 @@ ul.submenu > li {
 .lili:hover {
 	animation: movedown 1s ease-out;
 }
+
+.animated { 
+    animation: moveup 1s ease-out;
+}
+
+@keyframes movedown {
+
+	100% {
+		opacity: .1;
+		height: 0px;
+	}
+	50% {
+		opacity: .8;
+		height: 110px;
+	}
+	0% {
+		opacity: 1;
+		height: 125px;
+	}
+}
+
+
 .submenu {
 }
 
@@ -655,7 +690,7 @@ ul.menu > li:hover > ul.submenu {
 /* wrap-interest */
 
 .interest {
-	height: 150px;
+	height: 148px;
 	
 	display: flex;
 	margin-left: 18%;
@@ -663,10 +698,11 @@ ul.menu > li:hover > ul.submenu {
 
 .interest-left {
 	width: 60%;
-	height: 146px;
+	height: 144px;
 
 	background: #fff;
 	border-top: 2px solid #000;
+	border-left: 1px solid #000;
 	border-bottom: 2px solid #000;
 
 	display: flex;
@@ -683,9 +719,7 @@ ul.menu > li:hover > ul.submenu {
 
 .interest-right {
 	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
 	border-right: 2px solid #fff;
-
 	width: 40%;
 	height: 146px;
 	background: #000;
