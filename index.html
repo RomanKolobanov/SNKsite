@@ -5,6 +5,7 @@
 	<title>SNK - Business studio</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="content/ico-stroke/Pe-icon-7-stroke.css">
+  <link rel="stylesheet" href="content/social-ico/flaticon.css">
   <link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,22 +15,27 @@
         <div class="menu_nav">
       <img src="content/nav/logo.png" alt="">
       <ul class="menu">
-          <li class="inner-list"><a href="#">О нас</a></li>
+          <li class="inner-list"><a href="#"><i class="pe-7s-angle-right pe-2x"></i>О нас</a></li>
           <li style="" class="lili inner-list">
-            <a class="animation" href="#">Сайты</a>
+            <a href="#"><i class="pe-7s-angle-right pe-2x"></i>Сайты</a>
             <ul class="submenu">
               <li class="animate-list"><a href="">Lorem</a></li>
               <li class="animate-list"><a href="">Lorem</a></li>
             </ul>
           </li>
           <li class="lili inner-list">
-            <a href="#">Реклама</a>
+            <a href="#"><i class="pe-7s-angle-right pe-2x"></i>Реклама</a>
             <ul class="submenu">
               <li class="animate-list"><a href="">Lorem</a></li>
               <li class="animate-list"><a href="">Lorem</a></li>
             </ul>
           </li>
         </ul>
+        <div class="social-inner">
+          <a href="#"><i class="flaticon-instagram-logo"></i></a>
+          <a href="#"><i class="flaticon-facebook-logo-button"></i></a>
+          <a href="#"><i class="flaticon-twitter-logo-button"></i></a>
+        </div>
         <div class="fix">
           <p class="hover-none">Все права защищены. Любое копирование запрещено</p>
         </div>
@@ -139,7 +145,7 @@
     </div>
     </div>
   </div>
-  <div class="moveright block interest">
+  <div class="post block interest">
     <div class="interest-left">
       <p>Хотите увидеть нашу <b>инновационную</b> разработку?</p>
     </div>
@@ -148,19 +154,82 @@
     </div>
   </div>
   <div id="block5" class="block sectionfive">
-    
+    <div class="sectionfive-header">
+      <h2><b>Мы</b> хотим чтобы вы знали нас в лицо!</h2>
+    </div>
+    <div class="portfolio-wrap">
+      <div class="portfolio-block bottom_white">
+        <img src="content/portfolio/example-logo.png" width="130" height="130" alt="">
+          <p class="portfolio-post">Основатель СНК &mdash;</p>
+          <p>Дмитрий</p>
+      </div>
+      <div class="portfolio-block bottom_white">
+        <img src="content/portfolio/example-logo.png" width="130" height="130" alt="">
+        <p>Cпециалист отдела продаж &mdash;</p>
+          <p>Анастасия</p>
+      </div>
+      <div class="portfolio-block">
+        <img src="content/portfolio/example-logo.png" width="130" height="130" alt="">
+        <p><b class="portfolio-position">Отдел Дизайна</b> &mdash;</p>
+          <p>Надежда</p>
+      </div>
+      <div class="portfolio-block portfolio-fix">
+        <img src="content/portfolio/example-logo.png" width="130" height="130" alt="">
+        <p><b class="portfolio-position">Верстка Сайтов</b> &mdash;</p>
+          <p>Роман</p>
+      </div>
+    </div>
+    <div class="sectionfive-wrap">
+      <div class="sectionfive-wrap-left justify-center">
+        <h2>Что мы <span class="bold">знаем</span> о вас?</h2>
+      </div>
+      <div class="sectionfive-wrap-right justify-center">
+        <h2>Сразу скажем &mdash; <span class="bold">ничего</span></h2>
+      </div>
+    </div>
+    <div class="sectionfive-footer">
+      <div class="footer-left justify-center">
+        <h3><span class="bold">Если</span> вы дочитали до этого <br> момента – скорее всего вы столкнулись <br> с некоторым из вышеперечисленного <br> или ищете <span class="bold">качественный</span> Сервис <br> для вашего бизнеса.</h3>
+      </div>
+      <div class="footer-right justify-center">
+        <h2>Что мы <span class="bold">вам</span> можем сказать?</h2>
+        <div class="foo-right-inner">
+     <!--  <div class="arrow"><i class="pe-7s-angle-right pe-2x"></i></div> -->
+     <h3>Вы попали в яблочко! <br>
+Тогда скорее заполняйте форму <br> и давайте знакомиться ближе!</h3>
+        <div class="footer-form justify-center">
+          <form action="" class="form-action" id="form-contact" method="POST" action="lib/script/send-telegram.php">
+            <input name="name" type="text" class="form-input" tabindex="0" placeholder="Ваше имя" required>
+          <input name="phone" type="tel" class="form-input" tabindex="0" pattern="^[ 0-9]+$" placeholder="Ваш телефон" required> 
+          </form>
+        </div>
+            <div class="cont-button"> 
+             <input form="form-contact" type="submit" class="form-button" value="Отправить заявку!">
+           </div>
+         </div>
+      </div>
+    </div>
   </div>
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script type="text/javascript" src="lib/js/animation-block.js"></script>
-  <script src="lib/js/animation-nav.js"></script>
-  <script src="lib/js/viewportchecker.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="lib/js/fix-nav.js"></script>
+  <script src="lib/js/animation-nav.js"></script>
   <script src="lib/js/nav-menu.js"></script>
+  <script src="lib/js/viewportchecker.js"></script>
   <script>
-    
+    $(".lili").bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
+  $(this).removeClass("animated")  
+})
+
+$(".lili").(function(){
+  $(this).addClass("animat");        
+})
+
+    jQuery(document).ready(function() {
+    jQuery('.post').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInUp',
+        offset: 100
+       });
+});
   </script>
 </body>
 </html>
