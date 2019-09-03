@@ -901,6 +901,9 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .cont-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .form-button {
@@ -923,6 +926,7 @@ ul.menu > li:hover > ul.submenu {
 	letter-spacing: 1px;
 
 	transition: all .3s ease-out;
+
 }
 
 .form-button:hover {
