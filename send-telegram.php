@@ -1,4 +1,4 @@
-<meta http-equiv="refresh" content="0;url=/page/done.html">
+<!-- <meta http-equiv="refresh" content="3;url=/index.php"> -->
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 if (!empty($_POST['name']) && !empty($_POST['phone'])){

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="refresh" content="10;url=/index.html">
+	<meta charset="UTF-8">
+	<title>Done</title>
+<style>
+	*{ padding: 0; margin: 0; }
+	.div-inner { width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #000; color: #fff; font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; font-size: 42px; flex-direction: column; }
+</style>
+</head>
+<body>
+	<div class="div-inner">
+		<p>Congratulations!</p>
+		<p>You will be redirected in <span id="counter">10</span> second(s).</p>
+	</div>
+	<script type="text/javascript">
+function countdown() {
+    var i = document.getElementById('counter');
+    if (parseInt(i.innerHTML)<=0) {
+        location.href = 'login.php';
+    }
+if (parseInt(i.innerHTML)!=0) {
+    i.innerHTML = parseInt(i.innerHTML)-1;
+}
+}
+setInterval(function(){ countdown(); },1000);
+</script>
+</body>
+</html>

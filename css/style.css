@@ -2,14 +2,13 @@
 
 * {
 	scroll-behavior: smooth;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
 	padding: 0;
 	margin: 0;
 
-	font-family: 'Open Sans', sans-serif;
-	/* overflow-y: hidden; */
 }
 
 h1 {
@@ -133,6 +132,12 @@ b:hover {
 }
 .visible {
      opacity: 1;
+}
+
+.we-bold {
+	font-weight: 700;
+	color: #EFA94A;
+	font-size: 45px;
 }
 
 /* Блок Навигации */
@@ -766,7 +771,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .portfolio-post {
-	background-color: yellow;
+	background-color: #fff;
 	background-position: right;
 }
 
@@ -802,9 +807,13 @@ ul.menu > li:hover > ul.submenu {
 	width: 50%;
 }
 
+.sectionfive-wrap-right h2 {
+	font-size: 32px;
+}
+
 .sectionfive-footer {
 	width: 100%;
-	height: 100vh;
+	height: 87vh;
 	display: flex;
 }
 
@@ -815,7 +824,14 @@ ul.menu > li:hover > ul.submenu {
 .footer-left {
 	width: 50%;
 	background: #fff;
+	flex-direction: column;
 }
+
+.footer-left-header {
+	position: relative;
+	bottom: 120px;
+}
+
 
 .footer-left h3 {
 	font-weight: 300;
@@ -823,7 +839,7 @@ ul.menu > li:hover > ul.submenu {
 
 .footer-right {
 	width: 50%;
-	background: yellow;
+	background: #000;
 	flex-direction: column;
 	display: flex;
 
@@ -832,29 +848,44 @@ ul.menu > li:hover > ul.submenu {
 
 .footer-right h2 {
 	font-weight: 300;
+	color: #fff;
+}
+
+.form-text {
+	text-align: left;
+	padding: 10px;
+
+	border-top: 2px solid #000;
+	border-left: 3px solid #000;
+
+	width: 450px;
 }
 
 .foo-right-inner {
-	background-color: #000;
+	background-color: #fff;
 	padding: 15px;
-	color: #fff;
+	color: #000;
 }
 
 .form-action {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	width: 500px;
+	height: 170px;
 }
 
 .form-input {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 
 	margin: 15px;
-	width: 250px;
-	height: 30px;
+	width: 450px;
+	height: 50px;
 
 	font-size: 15px;
 	font-weight: 700;
@@ -862,7 +893,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .form-input::placeholder {
-	font-family: 'Open Sans', sans-serif;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
 	text-align: center;
 	font-weight: 700;
 	color: #000;
@@ -874,6 +905,43 @@ ul.menu > li:hover > ul.submenu {
 
 .form-button {
 	flex-direction: column;
+	background: none;
+	
+	border: 0;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+
+	width: 250px;
+	height: 50px;
+
+	color: #000;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	transition: all .3s ease-out;
+}
+
+.form-button:hover {
+	background-color: #EFA94A;
+
+	border: 3px solid #000;
+	border-top: 0;
+	border-bottom: 0;
+
+	color: #000;
+	cursor: pointer;
+}
+
+.foo-right-head {
+
+}
+
+.foo-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* *** */
