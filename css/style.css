@@ -917,6 +917,8 @@ ul.menu > li:hover > ul.submenu {
 	color: #000;
 	font-size: 15px;
 	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
 	font-weight: 700;
 	letter-spacing: 1px;
 
@@ -933,6 +935,7 @@ ul.menu > li:hover > ul.submenu {
 	color: #000;
 	cursor: pointer;
 }
+
 
 .foo-right-head {
 
