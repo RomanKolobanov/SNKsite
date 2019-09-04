@@ -6,9 +6,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/content/ico-stroke/Pe-icon-7-stroke.css">
 	<link rel="stylesheet" href="/content/social-ico/flaticon.css">
-	<link rel="stylesheet" href="/css/navigation-block.css">
-	<link rel="stylesheet" href="/css/stylesheet.css">
-	<link rel="stylesheet" href="/css/animate.css">
+	<link rel="stylesheet" href="/lib/css/navigation-block.css">
+	<link rel="stylesheet" href="/lib/css/stylesheet.css">
+	<link rel="stylesheet" href="/lib/css/animate.css">
 	<link rel="stylesheet" href="css/marketplace-page.css">
 </head>
 <body>
@@ -17,11 +17,11 @@
         	<div class="menu_nav">
       			<img src="/content/nav/logo.png" alt="">
       			<ul class="menu">
-          			<li class="inner-list"><a href="#"><i class="pe-7s-angle-right pe-2x"></i>О нас</a></li>
+          			<li class="inner-list"><a href="/page/about-us.html"><i class="pe-7s-angle-right pe-2x"></i>О нас</a></li>
           			<li style="" class="lili inner-list">
             			<a href="#"><i class="pe-7s-angle-right pe-2x"></i>Сайты</a>
            					 <ul class="submenu">
-             					<li class="animate-list"><a href="">Lorem</a></li>
+             					<li class="animate-list"><a href="/page/marketplace.php">Сайты</a></li>
               					<li class="animate-list"><a href="">Lorem</a></li>
            					</ul>
           			</li>
