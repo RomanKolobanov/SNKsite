@@ -44,8 +44,12 @@
       		</div>
     	</div>
 	</div>
-
-
+	<div class="block sectionone"></div>
+	<div class="block sectiontwo"></div>
+	<div class="block sectionthree"></div>
+	<div class="block sectionfour"></div>
+	<div class="block sectionfive"></div>
+	<div class="block sectionsix"></div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="lib/js/fix-nav.js"></script>
 <script src="/lib/js/animation-nav.js"></script>
