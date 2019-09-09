@@ -1,10 +1,24 @@
-html {
-	scroll-behavior: smooth;
-
-	font-family: 'Open Sans', sans-serif;
+.blockone-header {
+	padding-left: 8%;
 }
 
-body {
-	padding: 0;
-	margin: 0;
+.header-h1 {
+	font-size: 48px;
+	width: 400px;
+}
+
+.button__inner {
+	width: 200px;
+	height: 60px;
+	border: 1px solid #000;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 10px 5px; 
+	transition: all .3s ease-out;
+
+	color: #000;
+	
 }
