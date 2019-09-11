@@ -637,6 +637,18 @@
 	vertical-align: middle;
 }
 
+.pe-3x:before {
+	font-size: 3em;
+}
+
+.pe-4x:before {
+	font-size: 4em;
+}
+
 .pe-5x:before {
 	font-size: 5em;
+}
+
+.pe-6x:before {
+	font-size: 6em;
 }

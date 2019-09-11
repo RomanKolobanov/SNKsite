@@ -1,3 +1,9 @@
+/* blockone */
+
+.sectionone {
+	border-bottom: 1px solid #000;
+}
+
 .blockone-header {
 	padding-left: 8%;
 }
@@ -11,14 +17,182 @@
 	width: 200px;
 	height: 60px;
 	border: 1px solid #000;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	padding: 10px 5px; 
+	transition: all .3s ease-out;
+	
+	color: #000;
+	
+}
 
+.blockone-icon {
+	width: 100%;
+
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+.blockone-icon i {
+	padding-right: 155px;
+	flex-direction: column;
+}
+
+.blockone-btn {
+}
+
+.blockone-btn {
+}
+
+.blockone-button {
+	margin: 0 auto;
+
+	width: 250px;
+	height: 60px;
+	border: 2px solid #000;
+
+	transition: all .3s ease-out;
+}
+
+.blockone-button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+/* sectiontwo */
+
+.sectiontwo {
+	border-bottom: 1px solid #000;
+	height: 155vh;
+}
+
+.sectiontwo-h2 {
+	width: 55%;
+
+	text-align: right;
+	padding: 3px 15px;
+
+	border-bottom: 2px solid red;
+}
+
+.sectiontwo-wrap-left {
+	text-align: left;
+	padding-right: 15%;
+}
+
+.sectiontwo-wrap-right {
+	text-align: right;
+	padding-left: 15%;
+}
+
+.sectiontwo-wrap-block {
+	padding-top: 4%;
+	text-align: left;
+}
+
+.sectiontwo-wrap-block h4 {
+	font-size: 23px;
+}
+
+.sectiontwo-block-inner i {
+	position: relative;
+	top: 10px;
+	right: 50px;
+}
+
+.sectiontwo-desc {
+	padding-top: 5%;
+	display: flex;
+	align-items: center;
+}
+
+.sectiontwo-desc i {
+	display: flex;
+	justify-content: center;
+
+	border: 1px solid #000;
+
+	width: 100px;
+	padding: 40px;
+	margin-left: 5%;
+}
+
+.sectiontwo-desc p {
+	font-size: 22px;
+	position: relative;
+	top: 55px;
+	padding: 10px;
+
+	border-bottom: 1px solid #000;
+}
+
+/* sectionthree */
+
+.sectionthree {
+	border-bottom: 5px solid #000;
+	height: 120vh;
+}
+
+.sectiothree-header {
+	float: right;
+	width: 55%;
+}
+
+.sectiothree-header h2 {
+	text-align: left;
+
+	border-bottom: 2px solid red;
+	padding: 3px 15px;
+}
+
+.sectionthree-desc {
+	width: 100%;	
+}
+
+.sectionthree-desc-block {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	padding: 10px 5px; 
-	transition: all .3s ease-out;
+	padding-bottom: 90px;
+}
 
-	color: #000;
-	
+.sectionthree-desc-block p {
+	padding: 0px 80px;
+}
+
+.sectionthree-desc-block i {
+}
+
+.sectionthree-foo-btn {
+	flex: 0 1 auto;
+}
+
+.sectionthree-foo {
+}
+
+.sectionthree-btn {
+}
+
+/* sectionfour */
+
+.sectionfour-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+
+	border-bottom: 2px solid red;
+}
+
+.sectionfour-header h2 {
+	text-align: center;
+
+	border-right: 2px solid red;
+	border-left: 2px solid red;
+	padding: 3px 7px;
 }
